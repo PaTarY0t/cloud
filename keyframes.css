@@ -1,0 +1,34 @@
+@keyframes fly {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+@keyframes flap-left {
+  0% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(40deg);
+  }
+}
+@keyframes flap-right {
+  0% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(-40deg);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(100vw + 200px));
+  }
+}
